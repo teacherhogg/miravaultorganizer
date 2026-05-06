@@ -1,0 +1,17 @@
+{
+  "name": "mira-vault-organizer",
+  "version": "1.0.0",
+  "description": "Obsidian plugin: sets category/subcategory frontmatter from folder structure",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "latest",
+    "typescript": "^5.4.5"
+  }
+}

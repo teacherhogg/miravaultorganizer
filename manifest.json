@@ -1,0 +1,10 @@
+{
+  "id": "mira-vault-organizer",
+  "name": "MiraVaultOrganizer",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Scans vault files and ensures category/subcategory frontmatter matches folder structure.",
+  "author": "teacherhogg",
+  "authorUrl": "https://github.com/teacherhogg",
+  "isDesktopOnly": false
+}
