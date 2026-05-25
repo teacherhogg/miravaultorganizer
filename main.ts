@@ -23,6 +23,11 @@ export default class MiraVaultOrganizerPlugin extends Plugin {
 			// Split path into segments: ["folderA", "folderB", "file.md"] or deeper
 			const parts = file.path.split("/");
 
+			// Ignore any path under a top-level folder like "_archive".
+			if (parts[0].startsWith("_")) {
+				continue;
+			}
+
 			// Need at least folderA/folderB/file.md → 3 parts minimum
 			if (parts.length < 3) {
 				continue;
